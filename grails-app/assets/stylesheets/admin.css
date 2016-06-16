@@ -1,0 +1,59 @@
+.isFtp {
+    display: none;
+}
+
+.postalcode {
+    margin-left: 200px;
+}
+
+.postalcode div img:hover {
+    cursor: hand;
+    cursor: pointer;
+}
+
+.morePostalCode {
+    width: 152px;
+    background: rgb(233, 216, 216);
+    border: rgb(17, 185, 185);
+    margin-left: 274px;
+}
+
+.morePostalCode:hover {
+    cursor: hand;
+    cursor: pointer;
+}
+
+div .box {
+    float: left;
+    width: 450px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.clear {
+    clear: both;
+    height: 1px;
+    line-height: 1px
+}
+
+.clearable {
+    background: #fff url(data:image/gif;base64,R0lGODlhBwAHAIAAAP///5KSkiH5BAAAAAAALAAAAAAHAAcAAAIMTICmsGrIXnLxuDMLADs=) no-repeat right -10px center;
+    border: 1px solid #999;
+    padding: 3px 18px 3px 4px; /* Use the same right padding (18) in jQ! */
+    border-radius: 3px;
+    transition: background 0.4s;
+}
+
+.clearable.x {
+    background-position: right 10px center;
+}
+
+.clearable.onX {
+    cursor: pointer;
+}
+
+.isSettingModified {
+    display: none;
+}
